@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/frigoyang/LLM/Qwen3/Qwen3-MCP"
+      ]
+    },
+    "weather": {
+      "command": "python",
+      "args": [
+        "weather_server.py"
+      ]
+    }
+  }
+}
